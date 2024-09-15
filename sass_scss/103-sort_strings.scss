@@ -1,1 +1,9 @@
-$list_to_sort: john anna zoe kim felicia carrie;
+/* Task 103 - Sort list and print sorted list */
+$list_to_sort: john, anna, zoe, kim, felicia, carrie;
+
+// Sorting the list
+$list_sorted: sort($list_to_sort);
+
+// Printing the sorted list using debug
+@debug $list_sorted;
+;
