@@ -1,9 +1,10 @@
-/* Sass file Nested child */
-$color: #FF0000;
+$text-color: #FF0000;
+$text-color2: #00FF00;
+
 button {
-    color: $color;
-    &:hover {
-        $color: #00FF00;
-        color: $color;
-    }
+	color: $text-color;
+
+	&:hover {
+		color: $text-color2;
+	}
 }
