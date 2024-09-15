@@ -1,9 +1,9 @@
-/* Task 6 - Nested hover */
+/* Sass file Nested child */
+$color: #FF0000;
 button {
-  color: #FF0000;
-
-  &:hover {
-    color: #00FF00;
-  }
+    color: $color;
+    &:hover {
+        $color: #00FF00;
+        color: $color;
+    }
 }
-
